@@ -1,0 +1,66 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Restaurant 1",
+      "address": "Address 1",
+      "menus": [
+        {
+          "id": 1,
+          "name": "Updated menu",
+          "menuItems": [
+            {
+              "id": 1,
+              "name": "Item 1",
+              "price": 10.99
+            },
+            {
+              "id": 2,
+              "name": "Item 2",
+              "price": 15.99
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Sale"
+        },
+        {
+          "id": 3,
+          "name": "Sale department"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Route66",
+      "address": "Prishtine",
+      "menus": [
+        {
+          "id": 5,
+          "name": "Leonora"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Leonora",
+      "address": "111",
+      "menus": [
+        {
+          "id": 7,
+          "name": "menu"
+        },
+        {
+          "id": 8,
+          "name": "menu2"
+        }
+      ]
+    }
+  ],
+  "lastUsedId": {
+    "restaurantId": 9,
+    "menuId": 9,
+    "menuItemId": 10
+  }
+}
